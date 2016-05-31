@@ -2,20 +2,20 @@
     "name": "sahassar/fontawesomehelper",
     "type": "bolt-extension",
     "description" : "A helper extension for inlining font awesome icons",
-	"keywords" : [
+    "keywords" : [
         "font awesome",
         "font",
         "awesome"
-	],
+    ],
     "require": {
         "bolt/bolt": "^3.0.0"
     },
     "license": "MIT",
     "authors": [
         {
-			"name" : "Svante Richter",
-			"email" : "svante.richter@gmail.com"
-		}
+            "name" : "Svante Richter",
+            "email" : "svante.richter@gmail.com"
+        }
     ],
     "autoload": {
         "psr-4": {
