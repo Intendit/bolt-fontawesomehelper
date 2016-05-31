@@ -1,0 +1,29 @@
+{
+    "name": "sahassar/fontawesomehelper",
+    "type": "bolt-extension",
+    "description" : "A helper extension for inlining font awesome icons",
+	"keywords" : [
+        "font awesome",
+        "font",
+        "awesome"
+	],
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+			"name" : "Svante Richter",
+			"email" : "svante.richter@gmail.com"
+		}
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\sahassar\\fontawesomehelper\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\sahassar\\fontawesomehelper\\fontAwesomeExtension"
+    }
+}
